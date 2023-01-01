@@ -22,10 +22,12 @@ import com.route.newappc35fri.model.NewsResponse
 import com.route.newappc35fri.model.SourcesItem
 import com.route.newappc35fri.model.SourcesResponse
 import com.route.newappc35fri.ui.categories.Category
+import dagger.hilt.android.AndroidEntryPoint
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
+@AndroidEntryPoint
 class NewsFragment : Fragment() {
 
     companion object {

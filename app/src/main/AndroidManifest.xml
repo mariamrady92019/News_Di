@@ -10,7 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NewAppC35Fri"
-        android:usesCleartextTraffic="true">
+        android:usesCleartextTraffic="true"
+        android:name=".ApplicationClass"
+        >
         <activity
             android:name=".ui.home.HomeActivity"
             android:exported="true"
