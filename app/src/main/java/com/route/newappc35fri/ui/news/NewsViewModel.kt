@@ -24,6 +24,7 @@ class NewsViewModel : ViewModel() {
     val progressBarVisible = MutableLiveData<Boolean>(false)
     val newsList = MutableLiveData<List<ArticlesItem?>?>()
 
+
     fun getNewsSources(category: Category) {
 
 
